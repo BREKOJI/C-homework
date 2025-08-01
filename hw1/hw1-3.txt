@@ -1,0 +1,26 @@
+/*
+ * 作业名称：hw1-3
+ * 作者姓名：hxzhuang
+ * 代码编写时间：20250801
+ * 功能说明：练习合法变量命名，使用int/string/bool类型，了解C++关键字
+ */
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int nowAge = 22;                   // 定义当前年龄（整型）
+    string bornDay = "20030614";       // 出生年月日（字符串）
+    bool isAdult = true;               // 是否成年（布尔型）
+
+    cout << "今年岁数：" << nowAge << endl;
+    cout << "出生年月日：" << bornDay << endl;
+    cout << "是否成年：" << isAdult << endl;
+
+    return 0;
+}
+
+// 已学过的5个C++关键字：
+// int, double, bool, string, return
+// 其他常见关键字还包括：const, #define, if, for, while, class, public, private 等

@@ -1,0 +1,27 @@
+/*
+ * 作业名称：hw1-2
+ * 作者姓名：hxzhuang
+ * 代码编写时间：20250801
+ * 功能说明：练习使用变量、const常量和#define宏定义，输出个人信息
+ */
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+#define PI 3.14159  // 使用宏定义PI值
+
+int main() {
+    string name = "hxzhuang";         // 存储姓名
+    string city = "Shanghai";            // 所在城市
+    double temperature = 28.7;         // 当前温度（浮点型）
+    const string codingTime = "20250801"; // 编写代码时间（const字符串常量）
+
+    cout << "姓名：" << name << endl;
+    cout << "城市：" << city << endl;
+    cout << "当前温度：" << temperature << endl;
+    cout << "圆周率PI = " << PI << endl;
+    cout << "编写代码时间：" << codingTime << endl;
+
+    return 0;
+}

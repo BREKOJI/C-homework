@@ -1,0 +1,36 @@
+/*
+ * 作业名称：hw1-4
+ * 作者姓名：hxzhuang
+ * 代码编写时间：20250801
+ * 功能说明：综合运用变量、常量、注释和输出格式，构建学生信息卡
+ */
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+#define SCHOOL_NAME "复旦大学"         // 使用宏定义学校名称
+#define COURSE_NAME "C++编程入门"      // 使用宏定义课程名称
+
+int main() {
+    const int enrollmentYear = 2025;     // 入学年份（const常量）
+    const double maxScore = 100.0;   // 最高分（const常量）
+
+    const string studentName = "hxzhuang";        // 学生姓名
+    int age = 22;                        // 年龄
+    double currentScore = 95.5;          // 当前得分
+    bool isCompeting = true;             // 是否参加竞赛
+
+    // 输出格式化信息卡
+    cout << "========== 学生信息卡 ==========" << endl;
+    cout << "姓名：" << studentName << endl;
+    cout << "年龄：" << age << endl;
+    cout << "学校：" << SCHOOL_NAME << endl;
+    cout << "课程：" << COURSE_NAME << endl;
+    cout << "入学年份：" << enrollmentYear << endl;
+    cout << "当前得分：" << currentScore << "/" << maxScore << endl;
+    cout << "是否参加竞赛：" << isCompeting << endl;
+    cout << "================================" << endl;
+
+    return 0;
+}

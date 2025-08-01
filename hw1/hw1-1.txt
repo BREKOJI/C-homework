@@ -1,0 +1,19 @@
+/*
+ * 作业名称：hw1-1
+ * 作者姓名：hxzhuang
+ * 代码编写时间：20250801
+ * 功能说明：输出多行字符串进行自我介绍，练习 cout 和注释
+ */
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello!" << endl;           // 输出第一行问候
+    cout << "My name is hxzhuang." << endl; // 输出姓名
+    cout << "I'm a C++ freshman." << endl;   // 输出身份说明
+    cout << "I will start to learn C++ today." << endl; // 输出学习计划
+    cout << "Cheer up！" << endl;       // 输出鼓励语句
+
+    return 0;
+}
